@@ -21,6 +21,12 @@ namespace PasswordCheckerInC_
                 Console.WriteLine("Please enter a password");
             }
 
+            int length = secondPass.Length;
+
+            Console.WriteLine($"The length of your password is {length}")
+
+            Console.Readline();
+
             if (firstPass == secondPass)
             {
                 Console.WriteLine("Passwords match");
@@ -31,8 +37,7 @@ namespace PasswordCheckerInC_
             }
 
 
-
-
         }
     }
 }
+
